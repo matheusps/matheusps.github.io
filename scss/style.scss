@@ -72,14 +72,12 @@ body {
   }
 }
 
-.night-sky {
+.sky {
   position: relative;
   height: 100%;
   margin: 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  
-
   background: #000428;
   background: -webkit-linear-gradient(to bottom, #000428 , #004e92);
   background: linear-gradient(to bottom, #000428 , #004e92);
@@ -91,6 +89,12 @@ body {
     position: absolute;
     top: 0;
   }
+}
+
+.night{
+  background: #000428;
+  background: -webkit-linear-gradient(to bottom, #000428 , #004e92);
+  background: linear-gradient(to bottom, #000428 , #004e92);
 }
 
 .stars { @include star-template($numStarOneStars, 1px, $starOneScrollDuration); }

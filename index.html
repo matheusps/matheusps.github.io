@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html >
+<html ng-app="starSky">
 <head>
   <meta charset="UTF-8">
   <title>MPS DEV Background</title>
@@ -14,9 +14,9 @@
   
 </head>
 
-<body>
+<body ng-controller="switchController">
   <div class="container">
-    <div class="night-sky"></div>
+    <div class="night sky"></div>
     <div class="stars"></div>
     <div class="stars2"></div>
     <div class="stars3"></div>
@@ -24,15 +24,16 @@
     <h1 class="title">MPS DEV</h1>
 
     <div class="select-input">
-      <select>
-        <option>Night Style</option>
-        <option>Sunset Style</option>
-        <option>Morning Style</option>
+      <select ng-model="backStyle">
+        <option value="NIGHT">Night Style</option>
+        <option value="SUNSET">Sunset Style</option>
+        <option value="SUNRISE">Sunrise Style</option>
       </select>
     </div>
   </div>
-  
-    <script src="js/index.js"></script>
 
+  <!--Angular JS-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.min.js"></script>
+  <script src="js/app.js"></script>
 </body>
 </html>
