@@ -1,0 +1,24 @@
+{
+  "name": "star-sky",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Star sky using pure CSS",
+  "repository": "",
+
+  "scripts": {
+    "postinstall": "gulp",
+    "update-deps": "npm update",
+    "compile-sass": "gulp",
+    "watch-sass": "gulp watch-sass"
+  },
+
+  "dependencies": {},
+
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-sass-bulk-import": "^1.0.1"
+  }
+}
