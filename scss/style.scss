@@ -16,3 +16,17 @@ body {
 .hero-footer{
   margin-bottom: 50px;
 }
+
+.hero-header{
+  margin-top: 50px;
+}
+
+.foo-icons{
+  & i{
+    font-size: 100px;
+    margin: 50px;
+    &:hover{
+      color: #F62459;
+    }
+  }
+}
