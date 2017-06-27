@@ -1,39 +1,82 @@
 <!DOCTYPE html>
-<html ng-app="starSky">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>MPS DEV Background</title>
-  <style>
-    @font-face{
-      font-family: 'mps-title';
-      src: url('fonts/Kano.otf');
-    }
-  </style>
-  <link rel="stylesheet" href="css/style.css">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Landing - Free Bulma template</title>
 
-  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.2/css/bulma.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
 </head>
-
-<body ng-controller="switchController">
-  <div class="container">
-    <div class="night sky"></div>
-    <div class="stars"></div>
-    <div class="stars2"></div>
-    <div class="stars3"></div>
-    
-    <h1 class="title">MPS DEV</h1>
-
-    <div class="select-input">
-      <select ng-model="backStyle">
-        <option value="NIGHT">Night Style</option>
-        <option value="SUNSET">Sunset Style</option>
-        <option value="SUNRISE">Sunrise Style</option>
-      </select>
+<body>
+<!-- Into -->
+<section class="hero is-fullheight is-dark is-bold">
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <img class="profile-pic" src="img/profile.jpg">
+      <h1 class="title">Matheus P. Silva</h1>
+      <h2 class="subtitle">Web and Mobile Developer/Designer</h2>
     </div>
   </div>
+  <div class="hero-footer">
+    <div class="container has-text-centered">
+      <i class="fa fa-arrow-down fa-5x" aria-hidden="true"></i>
+    </div>
+  </div>
+</section>
 
-  <!--Angular JS-->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.min.js"></script>
-  <script src="js/app.js"></script>
+<!-- Education -->
+<section class="hero is-fullheight is-info">
+
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      Education
+    </div>
+  </div>
+</section>
+
+<!-- Experience -->
+<section class="hero is-fullheight is-success">
+
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      Experience
+    </div>
+  </div>
+</section>
+
+<!-- Tecnologies -->
+<section class="hero is-fullheight is-warning">
+
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      Tech
+    </div>
+  </div>
+</section>
+
+<!-- Design de UI -->
+<section class="hero is-fullheight is-danger">
+
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      Design de UI
+    </div>
+  </div>
+</section>
+
+<!-- Conexões -->
+<section class="hero is-fullheight is-dark">
+
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      Conexões
+    </div>
+  </div>
+</section>
+
 </body>
 </html>
